@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+
+.stat-display {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.startScreen {
+  align-items: center;
+}
+
+.game {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 80%;
+  height: 100vh;
+  border: 2px solid black;
+  padding: 3em;
+}
+
+.container {
+  position: relative;
+  margin: 1em;
+  height: 80%;
+  width: 50%;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.1s ease;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.flip {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.match {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+button {
+  margin: 1.5em;
+  padding: 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 1em;
+  background-color: #49a078;
+}
+
+.hidden {
+  display: none;
+}
+

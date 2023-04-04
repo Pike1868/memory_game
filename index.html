@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Memory Game!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Memory Game!</h1>
+  <p>You have 30 seconds to match all cards</p>
+  <div class="stat-display">
+    <div id="clock">
+      <h2 id="timer">Time:</h2>
+    </div>
+    <div class="scoreboard">
+      <h4 id="score">Matches:</h4>
+      <h4 id="clicks">Clicks:</h4>
+    </div>
+  </div>
+  <button id="gameStartBtn">Start</button>
+  <!-- Game Container below -->
+  <div id="game" class="game startScreen hidden">
+  </div>
+  <button id="gameRestartBtn" class="hidden">Restart</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
