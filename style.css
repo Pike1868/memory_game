@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .red {
@@ -45,8 +45,9 @@ body {
   display: inline-grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  width: 80%;
-  height: 100vh;
+  column-gap: 0.5em;
+  width: 40%;
+  height: 100%;
   border: 2px solid black;
   padding: 3em;
 }
@@ -55,7 +56,7 @@ body {
   position: relative;
   margin: 1em;
   height: 80%;
-  width: 50%;
+  width: 80%;
 }
 
 .card {
@@ -73,6 +74,7 @@ body {
   backface-visibility: hidden;
   background-color: white;
   border: 5px solid black;
+  border-radius: 0.5em;
 }
 
 .back {
@@ -81,6 +83,7 @@ body {
   height: 100%;
   backface-visibility: hidden;
   transform: rotateY(180deg);
+  border-radius: 0.5em;
 }
 
 .flip {

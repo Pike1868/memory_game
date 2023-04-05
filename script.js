@@ -92,7 +92,7 @@ function compare(arr, event) {
       card.dataset.isFlipped = true;
       card.dataset.eventListener = true;
       score.innerHTML = `Card Matches:${gameScore}`;
-      if (gameScore === 5) {
+      if (gameScore === 6) {
         setUpNewGame();
       }
     });
