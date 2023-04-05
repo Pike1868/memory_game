@@ -5,11 +5,13 @@ const COLORS = [
   "green",
   "orange",
   "purple",
+  "yellow",
   "red",
   "blue",
   "green",
   "orange",
   "purple",
+  "yellow",
 ];
 const cardStructure = `
 <div class="card">

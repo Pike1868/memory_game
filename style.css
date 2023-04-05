@@ -25,6 +25,9 @@ body {
   background-color: purple;
 }
 
+.yellow {
+  background-color: yellow;
+}
 
 .stat-display {
   width: 50%;
@@ -102,4 +105,3 @@ button {
 .hidden {
   display: none;
 }
-
